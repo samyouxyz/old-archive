@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3FAEC41B5F5B2700440A4D /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3FAEC11B5F5B2700440A4D /* enemy.png */; };
+		0D3FAEC51B5F5B2700440A4D /* enemy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3FAEC21B5F5B2700440A4D /* enemy@2x.png */; };
+		0D3FAEC61B5F5B2700440A4D /* enemy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3FAEC31B5F5B2700440A4D /* enemy@3x.png */; };
+		0D6A17531B4E806D000AEDCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A17521B4E806D000AEDCC /* AppDelegate.swift */; };
+		0D6A17571B4E806D000AEDCC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A17561B4E806D000AEDCC /* GameScene.swift */; };
+		0D6A17591B4E806D000AEDCC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A17581B4E806D000AEDCC /* GameViewController.swift */; };
+		0D6A175C1B4E806D000AEDCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A175A1B4E806D000AEDCC /* Main.storyboard */; };
+		0D6A175E1B4E806D000AEDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A175D1B4E806D000AEDCC /* Assets.xcassets */; };
+		0D6A17611B4E806D000AEDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A175F1B4E806D000AEDCC /* LaunchScreen.storyboard */; };
+		0D6A176C1B4E806D000AEDCC /* SlingRageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A176B1B4E806D000AEDCC /* SlingRageTests.swift */; };
+		0D6A17771B4E806D000AEDCC /* SlingRageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A17761B4E806D000AEDCC /* SlingRageUITests.swift */; };
+		0DCF5FCC1B4F82920079910D /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCF5FC91B4F82920079910D /* circle.png */; };
+		0DCF5FCD1B4F82920079910D /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCF5FCA1B4F82920079910D /* circle@2x.png */; };
+		0DCF5FCE1B4F82920079910D /* circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCF5FCB1B4F82920079910D /* circle@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D6A17681B4E806D000AEDCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D6A17471B4E806D000AEDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D6A174E1B4E806D000AEDCC;
+			remoteInfo = SlingRage;
+		};
+		0D6A17731B4E806D000AEDCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D6A17471B4E806D000AEDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D6A174E1B4E806D000AEDCC;
+			remoteInfo = SlingRage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3FAEC11B5F5B2700440A4D /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		0D3FAEC21B5F5B2700440A4D /* enemy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy@2x.png"; sourceTree = "<group>"; };
+		0D3FAEC31B5F5B2700440A4D /* enemy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy@3x.png"; sourceTree = "<group>"; };
+		0D6A174F1B4E806D000AEDCC /* SlingRage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlingRage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6A17521B4E806D000AEDCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D6A17561B4E806D000AEDCC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0D6A17581B4E806D000AEDCC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0D6A175B1B4E806D000AEDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D6A175D1B4E806D000AEDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D6A17601B4E806D000AEDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D6A17621B4E806D000AEDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6A17671B4E806D000AEDCC /* SlingRageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingRageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6A176B1B4E806D000AEDCC /* SlingRageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingRageTests.swift; sourceTree = "<group>"; };
+		0D6A176D1B4E806D000AEDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6A17721B4E806D000AEDCC /* SlingRageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingRageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6A17761B4E806D000AEDCC /* SlingRageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingRageUITests.swift; sourceTree = "<group>"; };
+		0D6A17781B4E806D000AEDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCF5FC91B4F82920079910D /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		0DCF5FCA1B4F82920079910D /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
+		0DCF5FCB1B4F82920079910D /* circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D6A174C1B4E806D000AEDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A17641B4E806D000AEDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A176F1B4E806D000AEDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6A17461B4E806D000AEDCC = {
+			isa = PBXGroup;
+			children = (
+				0D6A17511B4E806D000AEDCC /* SlingRage */,
+				0D6A176A1B4E806D000AEDCC /* SlingRageTests */,
+				0D6A17751B4E806D000AEDCC /* SlingRageUITests */,
+				0D6A17501B4E806D000AEDCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D6A17501B4E806D000AEDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D6A174F1B4E806D000AEDCC /* SlingRage.app */,
+				0D6A17671B4E806D000AEDCC /* SlingRageTests.xctest */,
+				0D6A17721B4E806D000AEDCC /* SlingRageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D6A17511B4E806D000AEDCC /* SlingRage */ = {
+			isa = PBXGroup;
+			children = (
+				0DCF5FC91B4F82920079910D /* circle.png */,
+				0DCF5FCA1B4F82920079910D /* circle@2x.png */,
+				0DCF5FCB1B4F82920079910D /* circle@3x.png */,
+				0D3FAEC11B5F5B2700440A4D /* enemy.png */,
+				0D3FAEC21B5F5B2700440A4D /* enemy@2x.png */,
+				0D3FAEC31B5F5B2700440A4D /* enemy@3x.png */,
+				0D6A17521B4E806D000AEDCC /* AppDelegate.swift */,
+				0D6A17561B4E806D000AEDCC /* GameScene.swift */,
+				0D6A17581B4E806D000AEDCC /* GameViewController.swift */,
+				0D6A175A1B4E806D000AEDCC /* Main.storyboard */,
+				0D6A175D1B4E806D000AEDCC /* Assets.xcassets */,
+				0D6A175F1B4E806D000AEDCC /* LaunchScreen.storyboard */,
+				0D6A17621B4E806D000AEDCC /* Info.plist */,
+			);
+			path = SlingRage;
+			sourceTree = "<group>";
+		};
+		0D6A176A1B4E806D000AEDCC /* SlingRageTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D6A176B1B4E806D000AEDCC /* SlingRageTests.swift */,
+				0D6A176D1B4E806D000AEDCC /* Info.plist */,
+			);
+			path = SlingRageTests;
+			sourceTree = "<group>";
+		};
+		0D6A17751B4E806D000AEDCC /* SlingRageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D6A17761B4E806D000AEDCC /* SlingRageUITests.swift */,
+				0D6A17781B4E806D000AEDCC /* Info.plist */,
+			);
+			path = SlingRageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D6A174E1B4E806D000AEDCC /* SlingRage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6A177B1B4E806D000AEDCC /* Build configuration list for PBXNativeTarget "SlingRage" */;
+			buildPhases = (
+				0D6A174B1B4E806D000AEDCC /* Sources */,
+				0D6A174C1B4E806D000AEDCC /* Frameworks */,
+				0D6A174D1B4E806D000AEDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlingRage;
+			productName = SlingRage;
+			productReference = 0D6A174F1B4E806D000AEDCC /* SlingRage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D6A17661B4E806D000AEDCC /* SlingRageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6A177E1B4E806D000AEDCC /* Build configuration list for PBXNativeTarget "SlingRageTests" */;
+			buildPhases = (
+				0D6A17631B4E806D000AEDCC /* Sources */,
+				0D6A17641B4E806D000AEDCC /* Frameworks */,
+				0D6A17651B4E806D000AEDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D6A17691B4E806D000AEDCC /* PBXTargetDependency */,
+			);
+			name = SlingRageTests;
+			productName = SlingRageTests;
+			productReference = 0D6A17671B4E806D000AEDCC /* SlingRageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D6A17711B4E806D000AEDCC /* SlingRageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6A17811B4E806D000AEDCC /* Build configuration list for PBXNativeTarget "SlingRageUITests" */;
+			buildPhases = (
+				0D6A176E1B4E806D000AEDCC /* Sources */,
+				0D6A176F1B4E806D000AEDCC /* Frameworks */,
+				0D6A17701B4E806D000AEDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D6A17741B4E806D000AEDCC /* PBXTargetDependency */,
+			);
+			name = SlingRageUITests;
+			productName = SlingRageUITests;
+			productReference = 0D6A17721B4E806D000AEDCC /* SlingRageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D6A17471B4E806D000AEDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ratanaksamrith You";
+				TargetAttributes = {
+					0D6A174E1B4E806D000AEDCC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0D6A17661B4E806D000AEDCC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0D6A174E1B4E806D000AEDCC;
+					};
+					0D6A17711B4E806D000AEDCC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0D6A174E1B4E806D000AEDCC;
+					};
+				};
+			};
+			buildConfigurationList = 0D6A174A1B4E806D000AEDCC /* Build configuration list for PBXProject "SlingRage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D6A17461B4E806D000AEDCC;
+			productRefGroup = 0D6A17501B4E806D000AEDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D6A174E1B4E806D000AEDCC /* SlingRage */,
+				0D6A17661B4E806D000AEDCC /* SlingRageTests */,
+				0D6A17711B4E806D000AEDCC /* SlingRageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D6A174D1B4E806D000AEDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6A17611B4E806D000AEDCC /* LaunchScreen.storyboard in Resources */,
+				0DCF5FCC1B4F82920079910D /* circle.png in Resources */,
+				0D3FAEC41B5F5B2700440A4D /* enemy.png in Resources */,
+				0D3FAEC61B5F5B2700440A4D /* enemy@3x.png in Resources */,
+				0D6A175E1B4E806D000AEDCC /* Assets.xcassets in Resources */,
+				0DCF5FCE1B4F82920079910D /* circle@3x.png in Resources */,
+				0DCF5FCD1B4F82920079910D /* circle@2x.png in Resources */,
+				0D6A175C1B4E806D000AEDCC /* Main.storyboard in Resources */,
+				0D3FAEC51B5F5B2700440A4D /* enemy@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A17651B4E806D000AEDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A17701B4E806D000AEDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D6A174B1B4E806D000AEDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6A17571B4E806D000AEDCC /* GameScene.swift in Sources */,
+				0D6A17591B4E806D000AEDCC /* GameViewController.swift in Sources */,
+				0D6A17531B4E806D000AEDCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A17631B4E806D000AEDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6A176C1B4E806D000AEDCC /* SlingRageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A176E1B4E806D000AEDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6A17771B4E806D000AEDCC /* SlingRageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D6A17691B4E806D000AEDCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D6A174E1B4E806D000AEDCC /* SlingRage */;
+			targetProxy = 0D6A17681B4E806D000AEDCC /* PBXContainerItemProxy */;
+		};
+		0D6A17741B4E806D000AEDCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D6A174E1B4E806D000AEDCC /* SlingRage */;
+			targetProxy = 0D6A17731B4E806D000AEDCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D6A175A1B4E806D000AEDCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D6A175B1B4E806D000AEDCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D6A175F1B4E806D000AEDCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D6A17601B4E806D000AEDCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D6A17791B4E806D000AEDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D6A177A1B4E806D000AEDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D6A177C1B4E806D000AEDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlingRage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrsamrith.SlingRage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D6A177D1B4E806D000AEDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlingRage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrsamrith.SlingRage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D6A177F1B4E806D000AEDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlingRageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrsamrith.SlingRageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlingRage.app/SlingRage";
+			};
+			name = Debug;
+		};
+		0D6A17801B4E806D000AEDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlingRageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrsamrith.SlingRageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlingRage.app/SlingRage";
+			};
+			name = Release;
+		};
+		0D6A17821B4E806D000AEDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlingRageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrsamrith.SlingRageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlingRage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0D6A17831B4E806D000AEDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlingRageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrsamrith.SlingRageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlingRage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D6A174A1B4E806D000AEDCC /* Build configuration list for PBXProject "SlingRage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6A17791B4E806D000AEDCC /* Debug */,
+				0D6A177A1B4E806D000AEDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6A177B1B4E806D000AEDCC /* Build configuration list for PBXNativeTarget "SlingRage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6A177C1B4E806D000AEDCC /* Debug */,
+				0D6A177D1B4E806D000AEDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6A177E1B4E806D000AEDCC /* Build configuration list for PBXNativeTarget "SlingRageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6A177F1B4E806D000AEDCC /* Debug */,
+				0D6A17801B4E806D000AEDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6A17811B4E806D000AEDCC /* Build configuration list for PBXNativeTarget "SlingRageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6A17821B4E806D000AEDCC /* Debug */,
+				0D6A17831B4E806D000AEDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D6A17471B4E806D000AEDCC /* Project object */;
+}

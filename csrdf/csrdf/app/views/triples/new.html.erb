@@ -1,0 +1,39 @@
+<h3>Triples: Restaurant</h3>
+<%= form_tag("/triples/do_test", method: "post") do %>
+	<p>
+		<%=label_tag 'Name' %><br>
+	    <%=text_field_tag 'name'%>
+	</p>
+    
+    <p>
+	    <%=label_tag 'Cuisine' %><br>
+	    <%=text_field_tag 'cuisine'%>
+    </p>
+    
+    <p>
+	    <%=label_tag 'Phone' %><br>
+	    <%=text_field_tag 'phone'%>
+    </p>
+
+    <p>
+	    <%=label_tag 'Location' %><br>
+	    <%=text_field_tag 'location'%>
+    </p>
+
+    <p>
+	    <%=label_tag 'Opening Hours' %><br>
+	    <%=text_field_tag 'openinghours'%>
+    </p>
+
+    <p>
+	    <%=label_tag 'Price' %><br>
+	    <%=text_field_tag 'price'%>
+    </p>
+
+    <p>
+	    <%=label_tag 'Comment' %><br>
+	    <%=text_field_tag 'comment'%>
+    </p>
+
+    <div><%= submit_tag 'Save' %></div>
+<% end %>
