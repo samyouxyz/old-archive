@@ -1,5 +1,6 @@
 # HBond-DPI
 A program that predicts H-bond in DNA-Protein complexes.
+Detail: https://github.com/samyrsd/graveyard/blob/master/hbond-dpi/hbond-dpi.pdf
 
 ### Overview
 HBond-DPI is a program that predicts the possibility of hydrogen bond interactions that occur at DNA-binding site in protein. DNA-protein complexes used in this program were extracted from PDB and NPIDB. The residues are divided into data instances, each has 11 residues and each residue is translated into three features: (1) side chain pKa value, (2) hydrophobicity index, and (3) molecular mass of an amino acid. After standardization, all training data instances is fed into support vector machine model to build an estimator for predicting h-bond interactions in DNA-binding protein. The result of the program appears to be 90.73% accuracy with sensitivity of 65.82% and specificity of 95.10%, while the MCC is 0.62.
