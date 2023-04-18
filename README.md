@@ -1,6 +1,6 @@
-# Graveyard
+# Archive
 
-This is my projects' graveyard. These are the projects I did to learn new stuff just for fun. They got old, abandoned and slowly died. But it was an exciting time working on them!
+Projects I used to work on:
 
 ## Project | First commit
 ### [fasttext-demo](https://github.com/yrsamrith/graveyard/tree/master/fasttext-demo) | Jun 21, 2018
